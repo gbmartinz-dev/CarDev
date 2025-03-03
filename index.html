@@ -26,15 +26,35 @@
   </header>
 
   <!-- Conteúdo da página -->
-  <section>
+  <section class="container">
     <div class="list">
-      <div class="item">
+      <div class="item active">
         <div class="car-img">
           <img src="./assets/1.png" alt="Imagem carro">
         </div>
         <div class="content">
           <p class="car-information">
             Único dono
+          </p>
+          <h2>
+            Porsche 911
+          </h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita neque veniam, similique recusandae illo beatae quod vero placeat rerum cupiditate asperiores voluptates repellat nulla! Quibusdam, sint. Cum, veniam similique.
+          </p>
+          <button class="information">
+            Comprar Agora
+          </button>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="car-img">
+          <img src="./assets/2.png" alt="Imagem carro">
+        </div>
+        <div class="content">
+          <p class="car-information">
+            Conversível
           </p>
           <h2>
             Ferrari
@@ -47,11 +67,31 @@
           </button>
         </div>
       </div>
+  
+    <div class="item">
+      <div class="car-img">
+        <img src="./assets/3.png" alt="Imagem carro">
+      </div>
+      <div class="content">
+        <p class="car-information">
+          2024
+        </p>
+        <h2>
+          Lamborghini
+        </h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur expedita neque veniam, similique recusandae illo beatae quod vero placeat rerum cupiditate asperiores voluptates repellat nulla! Quibusdam, sint. Cum, veniam similique.
+        </p>
+        <button class="information">
+          Comprar Agora
+        </button>
+      </div>
     </div>
+  </div>
 
     <div class="arrows">
-      <button><img src="./assets/arrow.png" alt="seta anterior"></button>
-      <button><img src="./assets/arrow.png" alt="seta próxima"></button>
+      <button id="prev"><img src="./assets/arrow.png" alt="seta anterior"></button>
+      <button id="next"><img src="./assets/arrow.png" alt="seta próxima"></button>
     </div>
 
     <div class="indicators">
@@ -63,5 +103,7 @@
       </ul>
     </div>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
